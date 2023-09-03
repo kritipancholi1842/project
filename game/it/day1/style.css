@@ -1,0 +1,56 @@
+/* defining the global variables */
+:root{
+    --primaryColor: #577D86;
+    --backgroundColor: #B9EDDD;
+    --myTitleFont:'Dancing Script', cursive;
+    --fontDefaultTextFont: 'Lato', sans-serif;
+    --fontDefaultHeading: 'Montserrat', sans-serif; 
+}
+
+/* main css */
+
+body{
+    margin: 0px;
+}
+
+.top-section{
+    background-color: var(--backgroundColor);
+    color: var(--primaryColor);
+    /* height: 400px; */
+    text-align: center;
+    padding-top: 200px;
+    
+}
+.heading {
+    font-family: var(--myTitleFont);
+    margin: 0;
+}
+.bio {
+    font-family: var(--fontDefaultTextFont);
+    margin: 0;
+    font-size: 0.75em;  /* 1em = 16px */
+    padding-bottom: 20px;
+}
+.top-cloud{
+    position: absolute;
+    margin-block-start: -100px;
+    margin-left: 250px;
+    width: 100px;
+}
+.bottom-cloud{
+    position: absolute;
+    margin-block-start: 50px;
+    margin-left: -100px;
+    width: 100px;
+}
+.mountain{
+    width: 600px;
+}
+img{
+    margin-bottom:-5px;
+}
+/* 
+font-family: 'Dancing Script', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif; 
+*/
